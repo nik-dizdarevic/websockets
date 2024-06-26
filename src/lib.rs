@@ -1,6 +1,5 @@
-pub mod frame;
-pub mod request;
 mod frame;
+mod request;
 
 pub use frame::Frame;
 pub use frame::FragmentedMessage;
